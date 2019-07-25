@@ -1,0 +1,36 @@
+.installments-plugin-snippet {
+  display: inline !important;
+  font-family: "Montserrat", "Helvetica", "HelveticaNeue","Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+  white-space: normal;
+}
+
+/* Home
+===================================== */
+/*Featured product*/
+.template-index .shopify-section .product-single .installments-plugin-snippet {
+  font-size: 1.3em;
+}
+
+/* Product page
+===================================== */
+#shopify-section-product-template .installments-plugin-snippet {
+  font-size: 1.3em;
+}
+
+/* Sidebar
+===================================== */
+#CartDrawer .installments-plugin-snippet {
+  font-size: 0.7em;
+}
+
+#CartDrawer .ajaxcart__footer .two-thirds {
+  float: none;
+  width: auto;
+  position: absolute;
+}
+
+#CartDrawer .ajaxcart__footer .one-third {
+  float: right;
+  width: auto;
+}
